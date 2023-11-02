@@ -1,0 +1,20 @@
+@import url("https://fonts.google.com/specimen/Nunito");
+.home {
+  font-family: "Nunito", sans-serif;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.4078431373);
+}
+.home .cardContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 50px 0px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+@media only screen and (max-width: 728px) {
+  .home .cardContainer {
+    grid-template-columns: auto;
+    gap: 40px 0px;
+    padding-left: 80px;
+  }
+}/*# sourceMappingURL=home.css.map */

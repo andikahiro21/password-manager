@@ -1,0 +1,31 @@
+@import url("https://fonts.google.com/specimen/Nunito");
+.box {
+  background-color: #00c9be;
+  text-align: center;
+  overflow: hidden;
+}
+@media only screen and (max-width: 728px) {
+  .box {
+    width: 300px;
+  }
+}
+.box .cardContent p {
+  color: white;
+}
+.box .cardContent h1 {
+  color: white;
+  font-weight: 1000;
+}
+.box .cardContent h2 {
+  color: white;
+  font-weight: 1000;
+}
+.box .passwordContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.box .passwordContainer .visibilityIcon {
+  cursor: pointer;
+}/*# sourceMappingURL=boxComponent.css.map */

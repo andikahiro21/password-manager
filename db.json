@@ -1,5 +1,25 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" }
+  "password": [
+    {
+      "id": 1,
+      "provider": "phincon.com",
+      "email": "mail@phincon.com",
+      "password": "Bethebest123",
+      "category": "work"
+    },
+    {
+      "provider": "tokopedia.com",
+      "email": "andikahiro778@gmail.com",
+      "password": "password",
+      "category": "family",
+      "id": 2
+    },
+    {
+      "provider": "shopee.com",
+      "email": "andikahiro778@gmail.com",
+      "password": "password",
+      "category": "personal",
+      "id": 3
+    }
+  ]
 }

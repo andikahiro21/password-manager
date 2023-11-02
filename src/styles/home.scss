@@ -1,0 +1,22 @@
+@import url("https://fonts.google.com/specimen/Nunito");
+@import "./component.scss";
+@import "./variable.scss";
+@import "./responsive.scss";
+.home {
+  font-family: $family;
+  width: 100%;
+  background-color: $grey;
+  .cardContainer {
+    @include rs {
+      grid-template-columns: auto;
+      gap: 40px 0px;
+
+      padding-left: 80px;
+    }
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 50px 0px;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+}

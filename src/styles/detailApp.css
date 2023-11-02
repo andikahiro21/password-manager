@@ -1,0 +1,17 @@
+* {
+  color: #404040;
+}
+
+.detailAppContainer {
+  display: flex;
+}
+.detailAppContainer .detailCont {
+  width: 85%;
+  margin-left: 15%;
+}
+@media only screen and (max-width: 728px) {
+  .detailAppContainer .detailCont {
+    width: 100%;
+    margin-left: 3%;
+  }
+}/*# sourceMappingURL=detailApp.css.map */

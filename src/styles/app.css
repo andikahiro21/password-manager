@@ -1,0 +1,19 @@
+* {
+  color: #404040;
+}
+
+.appContainer {
+  display: flex;
+}
+.appContainer .homeCont {
+  width: 85%;
+  margin-left: 16%;
+  margin-top: 2%;
+}
+@media only screen and (max-width: 728px) {
+  .appContainer .homeCont {
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 20%;
+  }
+}/*# sourceMappingURL=app.css.map */

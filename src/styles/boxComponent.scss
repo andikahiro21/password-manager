@@ -1,0 +1,35 @@
+@import url("https://fonts.google.com/specimen/Nunito");
+@import "./component.scss";
+@import "./variable.scss";
+@import "./responsive.scss";
+
+.box {
+  @include rs {
+    width: 300px;
+  }
+  background-color: $green;
+  text-align: center;
+  overflow: hidden;
+  .cardContent {
+    p {
+      color: $white;
+    }
+    h1 {
+      color: $white;
+      font-weight: 1000;
+    }
+    h2 {
+      color: $white;
+      font-weight: 1000;
+    }
+  }
+  .passwordContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    .visibilityIcon {
+      cursor: pointer;
+    }
+  }
+}
